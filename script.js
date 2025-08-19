@@ -15,7 +15,7 @@ const PRODUCTS = [
 
   { id: 'p1', nombre: 'Audífonos inalámbricos Airpods', precio: 60000, images: ['assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods.webp','assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods 1.webp','assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods 2.webp','assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods 3.webp'], descripcion: 'Audífonos de alta calidad para una experiencia de audio inmersiva.' },
   { id: 'p2', nombre: 'Combo audifonos + smartwatch Q9', precio: 80000, images: ['assets/img/Combo/Combo 1.jpeg', 'assets/img/Combo/Combo 2.png'], descripcion: 'El combo perfecto para tu día a día, con audífonos y smartwatch.' },
-  { id: 'p3', nombre: 'Pilas Beston Recargable X4 Con Cargador', precio: 35000, images: ['assets/img/Betson/betson 1.webp', 'assets/img/Betson/betson 2.webp'], descripcion: 'No te quedes sin energía. La duración está garantizada.' },
+  { id: 'p3', nombre: 'Pilas Beston Recargable X4 Con Cargador', precio: 40000, images: ['assets/img/Betson/betson 1.webp', 'assets/img/Betson/betson 2.webp'], descripcion: 'No te quedes sin energía. La duración está garantizada.' },
  
 
 ];
@@ -273,4 +273,5 @@ if (btnNextImage) {
 // =============== Init ===============
 renderProducts();
 renderCart();
+
 updateCartCount();
