@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enfoque</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Enfoque</h1>
+      <nav class="nav">
+        <a href="javascript:void(0)" onclick="openWhatsApp()" class="nav-link">Asesoría por WhatsApp</a>
+        <button class="btn btn-icon" id="btn-open-cart" aria-haspopup="dialog" aria-controls="cart-modal">
+          🛒 <span id="cart-count" class="badge">0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h2>Encuentra lo que necesitas</h2>
+        <p>Calidad, rapidez y atención personalizada por WhatsApp.</p>
+        
+      </div>
+    </section>
+
+    <section id="productos" class="products-grid">
+    </section>
+  </main>
+
+   <section class="container coming-soon">
+      <h2>¡Próximamente, más productos geniales!</h2>
+      <p>Estamos trabajando para traer las últimas novedades. ¡Visítanos pronto!</p>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="cart-backdrop" hidden></div>
+  <div class="modal" id="cart-modal" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+    <div class="modal-header">
+      <h3 id="cart-title">Tu carrito</h3>
+      <button class="btn btn-ghost" id="btn-close-cart" aria-label="Cerrar carrito">✕</button>
+    </div>
+    <div class="modal-body">
+      <ul id="cart-items" class="cart-items"></ul>
+      <div class="cart-summary">
+        <div class="row">
+          <span class="muted">Subtotal</span>
+          <strong id="cart-subtotal">$0</strong>
+        </div>
+        <div class="row small muted">Envío y descuentos se confirman por WhatsApp.</div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button id="btn-clear-cart" class="btn btn-outline">Vaciar carrito</button>
+      <button id="btn-continue" class="btn btn-secondary">Seguir comprando</button>
+      <button id="btn-whatsapp" class="btn btn-whatsapp">Finalizar por WhatsApp</button>
+    </div>
+  </div>
+
+  <div class="image-modal-backdrop" id="image-modal-backdrop" hidden>
+    <div class="image-modal" role="dialog" aria-label="Imagen ampliada de producto">
+      <img id="modal-image" src="" alt="Imagen de producto">
+      <button class="btn-close" id="btn-close-image-modal" aria-label="Cerrar vista ampliada">✕</button>
+      <button class="image-modal-nav prev" id="btn-prev-image" aria-label="Imagen anterior">‹</button>
+      <button class="image-modal-nav next" id="btn-next-image" aria-label="Imagen siguiente">›</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small class="muted">© 2025 Mi Tienda — Bogotá D.C.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
