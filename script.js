@@ -16,7 +16,7 @@ const PRODUCTS = [
   { id: 'p1', nombre: 'Audífonos inalámbricos Airpods', precio: 60000, images: ['assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods.webp','assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods 1.webp','assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods 2.webp','assets/img/Audífonos inalámbricos Airpods/Audífonos inalámbricos Airpods 3.webp'], descripcion: 'Audífonos de alta calidad para una experiencia de audio inmersiva.' },
   { id: 'p2', nombre: 'Combo audifonos + smartwatch Q9', precio: 80000, images: ['assets/img/Combo/Combo 1.jpeg', 'assets/img/Combo/Combo 2.png'], descripcion: 'El combo perfecto para tu día a día, con audífonos y smartwatch.' },
   { id: 'p3', nombre: 'Pilas Beston Recargable X4 Con Cargador', precio: 40000, images: ['assets/img/Betson/betson 1.webp', 'assets/img/Betson/betson 2.webp'], descripcion: 'No te quedes sin energía. La duración está garantizada.' },
-  { id: 'p4', nombre: 'Android TV Stick!', precio: 80000, images: ['assets/img/Tv Stick/Tvstick.png','assets/img/Tv Stick/Tvstick1.png','assets/img/Tv Stick/Tvstick2.png'], descripcion: '¡No esperes más para elevar tu experiencia de entretenimiento!' },
+  { id: 'p4', nombre: 'Android TV Stick!', precio: 80000, images: ['assets/img/Betson/betson 1.webp','assets/img/Tv Stick/Tvstick1.png','assets/img/Tv Stick/Tvstick2.png'], descripcion: '¡No esperes más para elevar tu experiencia de entretenimiento!' },
   { id: 'p5', nombre: 'Pistola de hidrogel G36', precio: 110000, images: ['assets/img/Pistohidrogel/Phidrogel.png','assets/img/Pistohidrogel/Phidrogel1.png','assets/img/Pistohidrogel/Phidrogel2.png'], descripcion: '¡Aventuras épicas y horas de diversión garantizadas! Con esta pistola de juguete, la imaginación no tendrá límites.' },
  
 
@@ -277,5 +277,6 @@ renderProducts();
 renderCart();
 
 updateCartCount();
+
 
 
